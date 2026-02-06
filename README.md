@@ -26,7 +26,7 @@ $$\mu_{k+1} = \frac{\sum_{i=1}^{N} \frac{x_i}{||x_i - \mu_k||}}{\sum_{i=1}^{N} \
 
 ## 📊 Results & Analysis
 The implementation was evaluated based on convergence speed and solution accuracy.
-*(See `Optimization_Report.docx` for full details)*
+*(See `Optimization_Report.pdf` for full details)*
 
 * **Robustness:** The results demonstrate that the Geometric Median (Red point in plots) is located centrally within the dense data cluster, whereas the Arithmetic Mean (Green point) is pulled away by outliers.
 * **Convergence:** The objective function $D(\mu)$ decreases monotonically, confirming the convex nature of the problem and the stability of Weiszfeld's method.
